@@ -698,7 +698,11 @@ button {
     padding: 3px 0;
   }
   .header__nav_item:after {
-    bottom: -4px;
+    bottom: -1px;
+  }
+
+  .header__nav_item.has_sub-menu::before {
+    top: 4px;
   }
   .sub-menu {
     display: none;
@@ -706,7 +710,7 @@ button {
     min-width: 270px;
     background: #d7e9ce;
     left: -25px;
-    margin-top: -7px;
+    margin-top: -11px;
     z-index: 10;
     -webkit-transition: 0s;
     -moz-transition: 0s;
@@ -728,6 +732,7 @@ button {
     background: transparent;
     z-index: 20;
     padding-left: 20px;
+    transition: none;
   }
   .header__phone {
     -webkit-align-self: center;
