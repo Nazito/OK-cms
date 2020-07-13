@@ -477,7 +477,7 @@ button {
   right: 15px;
   width: 15px;
   height: 15px;
-  background: url("../../img/next.svg");
+  background: url("../img/next.svg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -816,7 +816,7 @@ button {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   color: #363636;
-  background: url("./../../img/flower.svg"), url("./../../img/flower.svg");
+  background: url("./../img/flower.svg"), url("./../img/flower.svg");
   background-repeat: no-repeat;
   -webkit-background-size: 45% 45%;
   -moz-background-size: 45%;
